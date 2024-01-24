@@ -140,6 +140,7 @@ a{
     --blue-color: #5A4949;
     --font-family: 'Mulish', sans-serif;
     --font-family-poppins: 'Poppins', sans-serif;
+    --section-padding: 90px;
 	
 }
 html {
@@ -855,7 +856,7 @@ body.resize .arlo_tm_mainpart{
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 150px 0px;
+	padding: 140px 0px;
 }
 .arlo_tm_about .about_inner{
 	width: 100%;
@@ -1378,7 +1379,7 @@ body.resize .arlo_tm_mainpart{
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 125px 0px 120px 0px;
+	padding: var(--section-padding) 0px;
 }
 .arlo_tm_portfolio .portfolio_filter{
 	width: 100%;
@@ -2017,7 +2018,7 @@ body.resize .arlo_tm_mainpart{
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 100px 0px;
+	padding: var(--section-padding) 0;
 	background-color: #f9f9f9;
 }
 .arlo_tm_news .news_list{
@@ -2304,8 +2305,8 @@ body.resize .arlo_tm_mainpart{
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #f9f9f9;
-	padding: 0px 0px 150px 0px;
+	/* background-color: #f9f9f9; */
+	padding: var(--section-padding) 0 150px 0;
 }
 .arlo_tm_contact .inner{
 	width: 100%;
@@ -2730,4 +2731,9 @@ body.resize .arlo_tm_mainpart{
 
 .project_list {
   list-style-type: square;
+}
+
+.arlo_tm_projects {
+  background-color: #f9f9f9;
+  padding: var(--section-padding) 0;
 }
