@@ -1378,7 +1378,7 @@ body.resize .arlo_tm_mainpart{
 	height: auto;
 	clear: both;
 	float: left;
-	padding: 140px 0px 160px 0px;
+	padding: 125px 0px 120px 0px;
 }
 .arlo_tm_portfolio .portfolio_filter{
 	width: 100%;
@@ -2305,7 +2305,7 @@ body.resize .arlo_tm_mainpart{
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 150px 0px;
+	padding: 0px 0px 150px 0px;
 }
 .arlo_tm_contact .inner{
 	width: 100%;
@@ -2726,4 +2726,8 @@ body.resize .arlo_tm_mainpart{
 
 .text_color {
   color: #2274A5;
+}
+
+.project_list {
+  list-style-type: square;
 }

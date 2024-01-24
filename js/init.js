@@ -31,9 +31,7 @@ jQuery(document).ready(function(){
 	arlo_tm_down();
 	arlo_tm_resizer();
 	
-	jQuery(window).load('body', function(){
-		arlo_tm_my_load();
-	});
+  arlo_tm_my_load();
 	jQuery(window).on('scroll', function(){
 		dood_tm_progress_line();
 	});
